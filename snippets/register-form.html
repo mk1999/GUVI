@@ -1,0 +1,47 @@
+<div class="container p-2">
+  <div class="row">
+    <div class="col-12 col-md-6 offset-md-3">
+      <form action="doReg.php" method="POST">
+        <h2 class="text-center">Register</h2>
+        <div id="alert" class="alert" role="alert"></div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input
+            name="email"
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password</label>
+          <input
+            name="password"
+            type="password"
+            class="form-control"
+            id="pwd"
+            placeholder="Password"
+          />
+        </div>
+        <div class="form-group">
+          <label for="re-pwd">Confirm Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="repwd"
+            placeholder="Password"
+          />
+        </div>
+        <div class="col-12 col-md-6 offset-md-3 text-center">
+          <button id="reg" type="submit" class="btn btn-block btn-primary">
+            Signup
+          </button>
+          <small class="form-text text-muted"
+            >Already have an account?<a href="login.php">Login</a></small
+          >
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,82 @@
+<div class="container p-2">
+  <div class="row">
+    <div class="col-12 col-md-6 offset-md-3">
+      <form>
+        <h2 class="text-center">Complete Your Profile</h2>
+        <div id="alert" class="alert" role="alert"></div>
+        <div class="form-group">
+          <label for="email">Email your name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            placeholder="Enter name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="pwd">Date of birth</label>
+          <input
+            type="date"
+            class="form-control"
+            id="dob"
+            name="dob"
+            placeholder="D.O.B"
+          />
+        </div>
+        <div class="form-group">
+          <div class="form-check form-check-inline">
+            <label class="form-check-label" for="inlineRadio3"
+              >Gender : &nbsp;&nbsp;
+            </label>
+            <input
+              class="form-check-input"
+              type="radio"
+              name="sex"
+              id="sex"
+              value="1"
+              checked
+            />
+            <label class="form-check-label" for="inlineRadio1">Male</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="sex"
+              id="sex"
+              value="2"
+            />
+            <label class="form-check-label" for="inlineRadio2">Female</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="sex"
+              id="sex"
+              value="3"
+            />
+            <label class="form-check-label" for="inlineRadio2">Other</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="mobile">Mobile Number</label>
+          <input
+            type="text"
+            class="form-control"
+            id="mobile"
+            name="mobile"
+            placeholder="Mobile Number"
+          />
+        </div>
+        <div class="col-12 col-md-6 offset-md-3 text-center">
+          <button id="complete" type="submit" class="btn btn-block btn-primary">
+            Complete Profile
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
